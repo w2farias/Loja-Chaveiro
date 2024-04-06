@@ -5,9 +5,7 @@ function Layout() {
     const navigate = useNavigate()
     return (
         <>
-            <h1>Isso acelera o processo</h1>
-            <h1>Muito</h1>
-            <h2>Cade Elias</h2>
+
             <header><h1>Chaveiro Plakafor</h1></header>
             <nav>
                 <button onClick={() => navigate('/product')}>Produtos</button>
