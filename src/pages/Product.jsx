@@ -4,6 +4,9 @@ import auto from '../img/auto.jpg'
 import gorja from '../img/gorja.jpg'
 import tetra from '../img/tetra.jpg'
 import moto from '../img/moto.jpg'
+import carimbo from '../img/carimboL10.jpg'
+
+
 
 function Product() {
     const navigate = useNavigate()
@@ -13,20 +16,24 @@ function Product() {
 
             <br /><br />
             <div>
-                <p>Chave comum</p>
+                <p>Chaves comuns</p>
                 <button><img width='200px' src={comum} alt="Product1" /></button>
                 <br /><br />
-                <p>Chave tetra</p>
+                <p>Chaves tetras</p>
                 <button><img width='200px' src={tetra} alt="Product2" /></button>
                 <br /><br />
-                <p>Chave gorje</p>
+                <p>Chaves gorjas</p>
                 <button> <img width='200px' src={gorja} alt="Product3" /></button>
                 <br /><br />
-                <p>Chave moto</p>
+                <p>Chaves motos</p>
                 <button> <img width='197px' src={moto} alt="Product4" /></button>
                 <br /><br />
-                <p>Chave automotiva comum</p>
+                <p>Chaves automotiva comuns</p>
                 <button> <img width='200px' src={auto} alt="Product15" /></button>
+                <br /><br />
+                <p>Carimbos</p>
+                <button><img width='200px' src={carimbo} alt="Product6" /></button>
+
             </div>
 
 
