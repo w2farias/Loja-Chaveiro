@@ -16,23 +16,41 @@ function Product() {
 
             <br /><br />
             <div>
-                <p>Chaves comuns</p>
+                <p id='tituloP'>Chaves comuns</p>
                 <button><img width='200px' src={comum} alt="Product1" /></button>
                 <br /><br />
-                <p>Chaves tetras</p>
+                <button>Adicionar</button>
+                <br /><br />
+                <p id='tituloP'>Chaves tetras</p>
                 <button><img width='200px' src={tetra} alt="Product2" /></button>
                 <br /><br />
-                <p>Chaves gorjas</p>
+                <button>Adicionar</button>
+                <br /><br />
+                <p id='tituloP'>Chaves gorjas</p>
                 <button> <img width='200px' src={gorja} alt="Product3" /></button>
                 <br /><br />
-                <p>Chaves motos</p>
+                <button>Adicionar</button>
+                <br /><br />
+                <p id='tituloP'>Chaves motos</p>
                 <button> <img width='197px' src={moto} alt="Product4" /></button>
                 <br /><br />
-                <p>Chaves automotiva comuns</p>
+                <button>Adicionar</button>
+                <br /><br />
+                <p id='tituloP'>Chaves automotiva comuns</p>
                 <button> <img width='200px' src={auto} alt="Product15" /></button>
                 <br /><br />
-                <p>Carimbos</p>
+                <button>Adicionar</button>
+                <br /><br />
+                <p id='tituloP'>Carimbos</p>
                 <button><img width='200px' src={carimbo} alt="Product6" /></button>
+                <br /><br />
+                <button>Adicionar</button>
+                <br /><br /><br />
+                <footer>
+
+                </footer>
+
+
 
             </div>
 

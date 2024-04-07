@@ -18,24 +18,42 @@ function Service() {
     return (
         <>
             <h1>serviços</h1>
+
             <br /><br />
-            <p>Abertura de Fechadura Comum</p>
+            <p id='tituloP'>Abertura de Fechadura Comum</p>
             <button><img width='200px' src={fechaduraC} alt="Serviço1" /></button>
             <br /><br />
-            <p>Abertura de Fechadura Tetra</p>
+            <button>Adicionar</button>
+            <br /><br />
+            <p id='tituloP'>Abertura de Fechadura Tetra</p>
             <button><img width='200px' src={fechaduraT} alt="Serviço2" /></button>
             <br /><br />
-            <p>Troca de Segredo Comum</p>
+            <button>Adicionar</button>
+            <br /><br />
+            <p id='tituloP'>Troca de Segredo Comum</p>
             <button><img width='200px' src={mioloC} alt="Serviço3" /></button>
             <br /><br />
-            <p>Troca de segredo Tetra</p>
+            <button>Adicionar</button>
+            <br /><br />
+            <p id='tituloP'>Troca de segredo Tetra</p>
             <button><img width='200px' src={mioloT} alt="Serviço4" /></button>
             <br /><br />
-            <p>Abertura Veicular</p>
+            <button>Adicionar</button>
+            <br /><br />
+            <p id='tituloP'>Abertura Veicular</p>
             <button><img width='200px' src={carro} alt="Serviço5" /></button>
             <br /><br />
-            <p>Confecção de chave Veicular</p>
+            <button>Adicionar</button>
+            <br /><br />
+            <p id='tituloP'>Confecção de chave Veicular</p>
             <button><img width='200px' src={fechaduraA} alt="Serviço5" /></button>
+            <br /><br />
+            <button>Adicionar</button>
+            <br /><br /><br />
+            <footer>
+
+            </footer>
+
 
 
 
