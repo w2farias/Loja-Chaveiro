@@ -32,6 +32,7 @@ function Contact() {
             <p>Email: chaveiroplakafor2@gmail.com</p>
             <br /><br /><br />
             <button onClick={() => navigate(-1)}>Voltar</button>
+            <br /><br />
             <Footer />
         </>
     )

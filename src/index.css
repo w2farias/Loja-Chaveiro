@@ -21,7 +21,7 @@
 }
 
 .logo {
-  height: 70px;
+  height: 67px;
   width: 100%;
   align-items: center;
   cursor: pointer;
@@ -72,9 +72,9 @@
 
 
 .product {
-  display: grid;
-  place-items: center;
-  grid-template-columns: repeat(3, 1fr);
+  display: inline-flex;
+  margin-left: 100px;
+  gap: 20px;
 
 }
 
@@ -108,6 +108,25 @@
 }
 
 .serviceClass h2 {
+  font-style: italic;
+  font-size: large;
+}
+
+p {
+  font-size: x-large;
+  margin-left: 50px;
+  margin-right: 50px;
+
+
+}
+
+.productClass {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.productClass h2 {
   font-style: italic;
   font-size: large;
 }

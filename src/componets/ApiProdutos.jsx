@@ -8,12 +8,12 @@ import carimbo from '../img/carimboL10.jpg'
 
 
 const produtos = [
-    { id: 1, title: 'Chave comum', price: 8, url: comum },
-    { id: 2, title: 'Chave de auto', price: 150, url: auto },
-    { id: 3, title: 'Chave gorja', price: 20, url: gorja },
-    { id: 4, title: 'Chave tetra', price: 25, url: tetra },
-    { id: 5, title: 'Chave de Moto', price: 30, url: moto },
-    { id: 6, title: 'Carimbo', price: 35, url: carimbo }
+    { id: 1, title: 'Chave comum', price: 'R$ 8,00', url: comum },
+    { id: 3, title: 'Chave gorja', price: 'R$20,00', url: gorja },
+    { id: 4, title: 'Chave tetra', price: 'R$25,00', url: tetra },
+    { id: 2, title: 'Chave de auto', price: 'a partir de : R$ 150,00', url: auto },
+    { id: 5, title: 'Chave de Moto', price: 'a partir de : R$ 30,00', url: moto },
+    { id: 6, title: 'Carimbo', price: 'a partir de: R$ 35,00', url: carimbo }
 ]
 
 

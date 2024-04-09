@@ -8,12 +8,12 @@ import fechaduraA from '../img/fechAuto.jpg'
 
 
 const Serviços = [
-    { id: 1, title: 'Abertura de fechadura comum', price: 70, url: fechaduraC },
-    { id: 3, title: 'Abertura de fechadura tetra', price: 120, url: fechaduraT },
-    { id: 4, title: 'Troca de segredo comum', price: 80, url: mioloC },
-    { id: 5, title: 'Troca de segredo Tetra', price: 150, url: mioloT },
-    { id: 6, title: 'Abertur de automovel', url: carro },
-    { id: 2, title: 'Confecção de chave de auto', url: fechaduraA }
+    { id: 1, title: 'Abertura de fechadura comum', price: 'R$ 70,00', url: fechaduraC },
+    { id: 3, title: 'Abertura de fechadura tetra', price: 'R$ 120,00', url: fechaduraT },
+    { id: 4, title: 'Troca de segredo comum', price: 'R$ 80,00', url: mioloC },
+    { id: 5, title: 'Troca de segredo Tetra', price: 'a partir de: R$ 100,00', url: mioloT },
+    { id: 6, title: 'Abertura de automovel', price: 'a partir de: R$ 100,00', url: carro },
+    { id: 2, title: 'Confecção de chave de auto', price: 'a partir de: R$ 150,00', url: fechaduraA }
 ]
 
 

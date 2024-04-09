@@ -15,16 +15,18 @@ function Service() {
     return (
         <>
             <Menu />
-            <h1>SERVIÇOS</h1>
+            <h1>Serviços</h1>
 
 
             <br /><br /><br />
             <div className='serviceClass'>
                 {Serviços.map((produto) => (
                     <div className='service' key={produto.id}>
-                        <h2>{produto.title}</h2>
-                        <img width='200px' src={produto.url} alt={produto.title} />
-                        <p>R$ {produto.price}</p>
+                        <button>
+                            <h2>{produto.title}</h2>
+                            <img width='200px' height='150px' src={produto.url} alt={produto.title} />
+                            <h2>{produto.price}</h2>
+                        </button>
 
                         <br /><br /><br />
                     </div>
@@ -43,6 +45,7 @@ function Service() {
 
             <br /><br /><br />
             <button onClick={() => navigate(-1)}>Voltar</button>
+            <br /><br />
 
             <Footer />
 

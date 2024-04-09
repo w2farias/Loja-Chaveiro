@@ -3,11 +3,14 @@ import logo from '../Menu/imglogo/logo.png'
 
 function Menu() {
     return (
+
         <header >
             <div className='menuHeader'>
+
                 <div className='menuContainer'>
-                    <img className='logo' src={logo} alt="logo" />
+                    <NavLink to='/'><img className='logo' src={logo} alt="logo" /></NavLink>
                 </div >
+
                 <ul className='navMenu'>
                     <li className='navItens'>
                         <NavLink to='/products' activeClassName='active' className='navLinks'>Produtos</NavLink>
@@ -22,14 +25,8 @@ function Menu() {
                     </li>
                 </ul>
 
-
-
-                {/* <nav>
-                        <button onClick={() => navigate('/products')}>Produtos</button>
-                        <button onClick={() => navigate('/service')}>Serviços</button>
-                        <button onClick={() => navigate('/contact')}>Contato</button>
-                    </nav> */}
             </div>
+
         </header>
     )
 }

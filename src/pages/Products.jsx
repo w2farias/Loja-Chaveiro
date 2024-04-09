@@ -12,11 +12,15 @@ function Products() {
             <Menu />
             <h1>Produtos</h1>
             <br /><br /><br />
-            <div >
+            <div className='productClass' >
                 {produtos.map((produto) => (
                     <div key={produto.id}>
-                        <h2>{produto.title}</h2>
-                        <img width='200px' src={produto.url} alt={produto.title} />
+                        <button>
+                            <h2>{produto.title}</h2>
+                            <img width='200px' height='180px' src={produto.url} alt={produto.title} />
+                            <h2>{produto.price}</h2>
+
+                        </button>
 
                         <br /><br /><br />
                     </div>
@@ -25,6 +29,7 @@ function Products() {
 
             <br /><br />
             <button onClick={() => navigate(-1)}>Voltar</button>
+            <br /><br />
 
             <Footer />
         </>
