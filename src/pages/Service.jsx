@@ -1,5 +1,7 @@
 import { useNavigate } from 'react-router-dom'
 import Serviços from '../componets/ApiSerciços'
+import Menu from './Menu/Menu'
+import Footer from './Footer'
 
 
 
@@ -12,13 +14,14 @@ function Service() {
 
     return (
         <>
-            <h1>serviços</h1>
+            <Menu />
+            <h1>SERVIÇOS</h1>
 
 
             <br /><br /><br />
-            <div>
+            <div className='serviceClass'>
                 {Serviços.map((produto) => (
-                    <div key={produto.id}>
+                    <div className='service' key={produto.id}>
                         <h2>{produto.title}</h2>
                         <img width='200px' src={produto.url} alt={produto.title} />
                         <p>R$ {produto.price}</p>
@@ -40,6 +43,8 @@ function Service() {
 
             <br /><br /><br />
             <button onClick={() => navigate(-1)}>Voltar</button>
+
+            <Footer />
 
         </>
     )

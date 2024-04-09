@@ -8,24 +8,26 @@
   position: sticky;
   top: 0;
   z-index: 20;
+  border-radius: 30px;
 }
 
 .menuContainer {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 20%;
   height: 80px;
   max-width: 1500px;
 }
 
 .logo {
+  height: 70px;
+  width: 100%;
   align-items: center;
-  margin-left: 1rem;
   cursor: pointer;
-  text-decoration: none;
-  font-size: 2rem;
+  display: grid;
   flex-grow: 1;
+  place-items: left;
 }
 
 .navMenu {
@@ -37,19 +39,19 @@
 }
 
 .navLinks {
-  color: white;
+  color: yellow;
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
   border-bottom: 3px solid transparent;
 }
 
-.navItem {
+.navItens {
   line-height: 40px;
   margin-right: 1rem;
 }
 
-.navItem:after {
+.navItens:after {
   content: "";
   display: block;
   height: 3px;
@@ -58,7 +60,7 @@
   transition: width .7s ease, background-color 0.5 ease;
 }
 
-.navItem:hover:after {
+.navItens:hover:after {
   width: 100%;
   background: yellow;
 }
@@ -66,4 +68,46 @@
 .navItem .active {
   color: yellow;
   border: 1px solid yellow;
+}
+
+
+.product {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3, 1fr);
+
+}
+
+.product img {
+  height: 180px;
+}
+
+
+
+
+
+
+.footerHome {
+  background-color: rgb(6, 4, 113);
+  border-radius: 30px;
+  color: yellow;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+
+
+}
+
+
+.serviceClass {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.serviceClass h2 {
+  font-style: italic;
+  font-size: large;
 }

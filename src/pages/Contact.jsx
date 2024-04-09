@@ -1,9 +1,12 @@
 import { useNavigate } from 'react-router-dom'
+import Menu from './Menu/Menu'
+import Footer from './Footer'
 function Contact() {
     const navigate = useNavigate()
 
     return (
         <>
+            <Menu />
             <h1>Contato</h1>
 
             <div>
@@ -29,7 +32,7 @@ function Contact() {
             <p>Email: chaveiroplakafor2@gmail.com</p>
             <br /><br /><br />
             <button onClick={() => navigate(-1)}>Voltar</button>
-
+            <Footer />
         </>
     )
 }
