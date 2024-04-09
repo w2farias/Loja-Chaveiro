@@ -1,7 +1,10 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import market from '../componets/ApiMarket'
 import './Style.css'
+import logo from '../img/logo.png'
+
 
 
 function Layout() {
@@ -9,13 +12,35 @@ function Layout() {
     return (
         <>
 
-            <header><h1>Chaveiro Plakafor</h1></header>
-            <nav>
-                <button onClick={() => navigate('/products')}>Produtos</button>
-                <button onClick={() => navigate('/service')}>Serviços</button>
-                <button onClick={() => navigate('/contact')}>Contato</button>
+            <header >
+                <div className='menuHeader'>
+                    <div className='menuContainer'>
+                        <img className='logo' activeClassName='active' src={logo} alt="logo" />
+                    </div >
+                    <ul className='navMenu'>
+                        <li className='navItens'>
+                            <NavLink to='/products' activeClassName='active' className='navLinks'>Produtos</NavLink>
+                        </li>
 
-            </nav>
+                        <li className='navItens'>
+                            <NavLink to='/service' activeClassName='active' className='navLinks'>Serviços</NavLink>
+                        </li>
+
+                        <li className='navItens'>
+                            <NavLink to='/contact' activeClassName='active' className='navLinks'>Contato</NavLink>
+                        </li>
+                    </ul>
+
+
+
+                    {/* <nav>
+                        <button onClick={() => navigate('/products')}>Produtos</button>
+                        <button onClick={() => navigate('/service')}>Serviços</button>
+                        <button onClick={() => navigate('/contact')}>Contato</button>
+                    </nav> */}
+                </div>
+            </header>
+
             <br /><br />
             <main>
                 <p> Somos uma empresa familiar e estamos no mercado desde 2014, atuamos  em áreas residenciais e empresas para contribuir com a sua segurança.</p>
