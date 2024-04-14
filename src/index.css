@@ -130,3 +130,10 @@ p {
   font-style: italic;
   font-size: large;
 }
+
+.contato {
+
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: rgb(33, 201, 243);
+}

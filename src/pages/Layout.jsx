@@ -23,7 +23,7 @@ function Layout() {
             <div className='product'>
                 {market.map((img) => (
                     <div key={img.id}>
-                        <img src={img.url} alt={`Imagem ${img.id}`} />
+                        <img width='200px' height='200px' src={img.url} alt={`Imagem ${img.id}`} />
                     </div>
                 ))}
             </div>

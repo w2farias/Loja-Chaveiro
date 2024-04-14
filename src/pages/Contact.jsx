@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom'
 import Menu from './Menu/Menu'
 import Footer from './Footer'
 function Contact() {
@@ -9,7 +9,7 @@ function Contact() {
             <Menu />
             <h1>Contato</h1>
 
-            <div>
+            {/* <div>
 
                 <label >Nome: <input type="text" /></label>
                 <br />
@@ -25,11 +25,13 @@ function Contact() {
 
 
 
-            </div>
+            </div> */}
             <br /><br />
-            <p >Contato: (71) 98641-9145 | 99973-8703 </p>
+            <button className='contato'>
+                <p >Contato: (71) 98641-9145 | 99973-8703 </p>
 
-            <p>Email: chaveiroplakafor2@gmail.com</p>
+                <p>Email: chaveiroplakafor2@gmail.com</p>
+            </button>
             <br /><br /><br />
             <button onClick={() => navigate(-1)}>Voltar</button>
             <br /><br />
