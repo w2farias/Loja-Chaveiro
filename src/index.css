@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: auto;
+  font-size: 1rem;
   /* Reduzindo o tamanho da fonte */
   position: sticky;
   top: 0;
@@ -81,7 +81,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: auto;
+  font-size: 1rem;
   max-width: 100%;
   /* Reduzindo o tamanho da fonte */
 }
@@ -93,9 +93,11 @@
 }
 
 @media screen and (max-width: 768px) {
-  .menuHeader {
+
+  .menuHeader,
+  .footerHome {
     height: 50px;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
 
   .menuContainer {
