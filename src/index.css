@@ -46,17 +46,20 @@
   flex-grow: 1;
 }
 
-.productClass {
+.productClass,
+.serviceClass {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
+  gap: 15px;
 }
 
-
-
-.serviceClass {
-  display: flex;
+.productClass .product,
+.serviceClass .product {
+  flex: 0 0 calc(33.33% - 15px);
+  /* Define a largura do item com 33.33% da largura total, subtraindo o espaço entre eles */
+  max-width: calc(33.33% - 15px);
+  /* Define a largura máxima do item */
 }
 
 .navLinks {
@@ -118,6 +121,14 @@
   .footerHome {
     height: 50px;
     font-size: 0.9rem;
+  }
+
+  .productClass .product,
+  .serviceClass .product {
+    flex: 0 0 calc(50% - 5px);
+    /* Em telas menores, os itens ocuparão 50% da largura total */
+    max-width: calc(50% - 5px);
+    /* Define a largura máxima do item */
   }
 
   .menuContainer {
