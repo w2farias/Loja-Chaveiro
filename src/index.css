@@ -100,7 +100,7 @@
 
 @media screen and (max-width: 768px) {
   .logo {
-    max-width: 60%;
+    max-width: 100%;
   }
 
   .menuHeader,
