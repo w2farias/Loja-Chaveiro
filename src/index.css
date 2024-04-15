@@ -22,7 +22,6 @@
   align-items: center;
   width: 90%;
   height: 60px;
-
   max-width: 100%;
   overflow: hidden;
 
@@ -47,6 +46,16 @@
   flex-grow: 1;
 }
 
+.productClass {
+  display: flex;
+}
+
+
+
+.serviceClass {
+  display: flex;
+}
+
 .navLinks {
   color: yellow;
   text-decoration: none;
@@ -66,7 +75,6 @@
 .product {
   display: flex;
   flex-wrap: wrap;
-
   justify-content: center;
   gap: 30px;
 
@@ -74,9 +82,9 @@
 
 .product img {
   max-width: 100%;
-
   height: 200px;
 }
+
 
 .footerHome {
   background-color: rgb(6, 4, 113);
