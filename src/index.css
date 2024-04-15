@@ -65,11 +65,18 @@
   height: 100%;
   border-bottom: 2px solid transparent;
   max-width: 100%;
+  transition: color 0.3s ease, border-bottom-color 0.3s ease;
 }
+
+.navLinks:hover {
+  color: white;
+  border-bottom-color: yellow;
+}
+
 
 .navItem {
   margin-right: 1rem;
-  cursor: pointer;
+
 }
 
 .product {

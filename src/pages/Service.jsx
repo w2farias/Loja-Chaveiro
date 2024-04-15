@@ -12,6 +12,10 @@ import Footer from './Footer'
 function Service() {
     const navigate = useNavigate()
 
+    const contato = () => {
+        navigate('/contact')
+    }
+
     return (
         <>
             <Menu />
@@ -22,7 +26,7 @@ function Service() {
             <div className='serviceClass'>
                 {Serviços.map((produto) => (
                     <div className='service' key={produto.id}>
-                        <button>
+                        <button onClick={contato}>
                             <h2>{produto.title}</h2>
                             <img width='200px' height='180px' src={produto.url} alt={produto.title} />
                             <h2>{produto.price}</h2>

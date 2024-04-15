@@ -1,11 +1,16 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom'
 import produtos from '../componets/ApiProdutos'
 import Menu from './Menu/Menu'
 import Footer from './Footer'
 
 function Products() {
     const navigate = useNavigate()
+
+    const contato = () => {
+        navigate('/contact')
+    }
+
 
     return (
         <>
@@ -15,7 +20,7 @@ function Products() {
             <div className='productClass' >
                 {produtos.map((produto) => (
                     <div key={produto.id}>
-                        <button>
+                        <button onClick={contato}>
                             <h2>{produto.title}</h2>
                             <img width='200px' height='180px' src={produto.url} alt={produto.title} />
                             <h2>{produto.price}</h2>
