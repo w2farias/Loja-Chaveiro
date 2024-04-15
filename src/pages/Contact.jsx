@@ -7,30 +7,16 @@ function Contact() {
     return (
         <>
             <Menu />
-            <h1>Contato</h1>
-
-            {/* <div>
-
-                <label >Nome: <input type="text" /></label>
-                <br />
-                <label >Telfone: <input type="number" /></label>
-                <br />
-                <label >Email: <input type="email" /></label>
-                <br /><br />
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-                <br />
-                <button type="submit">Enviar sua mensagem</button>
-
-
-
-
-
-            </div> */}
+            <h1>Entre em Contato</h1>
             <br /><br />
-            <button className='contato'>
-                <p >Contato: (71) 98641-9145 | 99973-8703 </p>
+            <div>
+                <p>Estamos disponíveis para atender às suas necessidades. Entre em contato conosco para solicitar um orçamento ou agendar um horário.</p>
 
+            </div>
+            <button className='contato'>
+                <p >Telefone: (71) 98641-9145 | 99973-8703 </p>
                 <p>Email: chaveiroplakafor2@gmail.com</p>
+
             </button>
             <br /><br /><br />
             <button onClick={() => navigate(-1)}>Voltar</button>
