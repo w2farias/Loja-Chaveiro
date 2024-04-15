@@ -48,6 +48,7 @@
 
 .productClass {
   display: flex;
+  flex-grow: 1;
 }
 
 
