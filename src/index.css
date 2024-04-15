@@ -30,7 +30,7 @@
 
 .logo {
   height: auto;
-  max-width: 50%;
+  max-width: 34%;
   align-items: center;
   cursor: pointer;
   display: grid;
@@ -100,7 +100,7 @@
 
 @media screen and (max-width: 768px) {
   .logo {
-    max-width: 40%;
+    max-width: 60%;
   }
 
   .menuHeader,
