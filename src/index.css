@@ -48,8 +48,9 @@
 
 .productClass {
   display: flex;
-  flex-grow: 1;
-  overflow: hidden;
+  flex-wrap: wrap;
+  justify-content: center;
+
 }
 
 
