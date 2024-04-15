@@ -11,6 +11,8 @@
   top: 0;
   z-index: 20;
   border-radius: 15px;
+  overflow: hidden;
+  width: 100%;
   /* Reduzindo o raio da borda */
 }
 
