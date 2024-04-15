@@ -24,7 +24,7 @@ function Service() {
                     <div className='service' key={produto.id}>
                         <button>
                             <h2>{produto.title}</h2>
-                            <img width='200px' height='150px' src={produto.url} alt={produto.title} />
+                            <img width='200px' height='180px' src={produto.url} alt={produto.title} />
                             <h2>{produto.price}</h2>
                         </button>
 
