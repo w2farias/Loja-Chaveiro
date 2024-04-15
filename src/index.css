@@ -30,12 +30,13 @@
 
 .logo {
   height: auto;
-  max-width: 165px;
+  max-width: 30%;
   align-items: center;
   cursor: pointer;
   display: grid;
   flex-grow: 1;
   place-items: left;
+  overflow: hidden;
 }
 
 .navMenu {
@@ -43,6 +44,7 @@
   list-style: none;
   text-align: center;
   margin-right: 0;
+  flex-grow: 1;
 }
 
 .navLinks {
@@ -58,6 +60,7 @@
 
 .navItem {
   margin-right: 1rem;
+  cursor: pointer;
 }
 
 .product {
@@ -96,6 +99,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .logo {
+    max-width: 30%;
+  }
 
   .menuHeader,
   .footerHome {
