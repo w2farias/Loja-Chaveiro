@@ -23,7 +23,8 @@
   width: 90%;
   height: 60px;
   /* Reduzindo a altura */
-  max-width: 1000px;
+  max-width: 100%;
+  overflow: hidden;
   /* Reduzindo a largura máxima */
 }
 
