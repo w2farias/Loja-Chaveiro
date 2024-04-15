@@ -13,7 +13,6 @@
   border-radius: 15px;
   overflow: hidden;
   width: 100%;
-
 }
 
 .menuContainer {
@@ -24,7 +23,6 @@
   height: 60px;
   max-width: 100%;
   overflow: hidden;
-
 }
 
 .logo {
@@ -57,20 +55,16 @@
 .productClass .product,
 .serviceClass .product {
   flex: 0 0 calc(33.33% - 15px);
-  /* Define a largura do item com 33.33% da largura total, subtraindo o espaço entre eles */
   max-width: calc(33.33% - 15px);
-  /* Define a largura máxima do item */
 }
 
 .navLinks {
   color: yellow;
   text-decoration: none;
   padding: 0.5rem 0.5rem;
-
   height: 100%;
   border-bottom: 2px solid transparent;
   max-width: 100%;
-
 }
 
 .navItem {
@@ -83,7 +77,6 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
-
 }
 
 .product img {
@@ -91,19 +84,16 @@
   height: 200px;
 }
 
-
 .footerHome {
   background-color: rgb(6, 4, 113);
   border-radius: 15px;
   color: yellow;
   height: 60px;
-
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1rem;
   max-width: 100%;
-
 }
 
 .contato {
@@ -126,9 +116,7 @@
   .productClass .product,
   .serviceClass .product {
     flex: 0 0 calc(50% - 5px);
-    /* Em telas menores, os itens ocuparão 50% da largura total */
     max-width: calc(50% - 5px);
-    /* Define a largura máxima do item */
   }
 
   .menuContainer {
