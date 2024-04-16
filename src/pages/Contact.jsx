@@ -1,8 +1,11 @@
-import { NavLink, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import Menu from './Menu/Menu'
 import Footer from './Footer'
 function Contact() {
     const navigate = useNavigate()
+    const whatsApp = () => {
+        window.location.href = 'https://wa.me/557186419145'
+    }
 
     return (
         <>
@@ -12,6 +15,8 @@ function Contact() {
             <div>
                 <p>Estamos disponíveis para atender às suas necessidades. Entre em contato conosco para solicitar um orçamento ou agendar um horário.</p>
 
+                <button onClick={whatsApp}>WhatsApp</button>
+                <br /><br />
             </div>
             <button className='contato'>
                 <p >Telefone: (71) 98641-9145 | 99973-8703 </p>
